@@ -1,17 +1,40 @@
 .message {
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 5px;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
-
+    width: 50px;
+    height: 50px;
 }
 
 .text {
-
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: lightgray;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 10px 10px 0 10px;
+    :after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        right: -10px;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid blue;
+    }
 }
 
 .text:after {
@@ -19,7 +42,7 @@
 }
 
 .name {
-
+    font-weight: bold;
 }
 
 .messageText {
