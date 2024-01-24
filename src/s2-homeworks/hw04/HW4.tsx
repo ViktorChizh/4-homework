@@ -11,8 +11,8 @@ import Stand from './Stand'
 
 const HW4 = () => {
     return (
-        <div id={'hw4'}>
-            <div className={s2.hwTitle}>Homework #4</div>
+        <div id={'hw4'} style={{marginTop:'50px'}}>
+            <div className={s2.hwTitle} style={{fontSize:'20px', fontWeight:'bolder', margin:'25px 0'}}>Homework #4</div>
             {/*демонстрация возможностей компонент:*/}
             <div className={s2.hw}>
                 <Stand />
