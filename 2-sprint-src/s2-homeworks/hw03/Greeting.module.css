@@ -1,0 +1,48 @@
+.greetingForm {
+}
+
+.inputAndButtonContainer {
+    margin: 5px 0;
+  div {
+      height: 30px;
+      display: flex;
+  }
+}
+
+.error {
+    color: red;
+}
+
+.input {
+}
+
+.input:focus {
+}
+
+.errorInput {
+    outline-color: red;
+}
+
+.button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+}
+
+.button:focus {
+}
+
+.button:active {
+}
+
+.button:disabled {
+    opacity: 0.5;
+}
+
+.text {
+}
+
+.greeting {
+}
