@@ -1,9 +1,15 @@
 .select {
+   outline: #8a8a8a solid 2px;
+    border-radius: 2px;
+    border: none;
+    padding: 1px 50px 1px 5px;
 }
 
 .select:focus {
+    outline: black solid 2px;
 }
 
 
 .option:hover {
+
 }
