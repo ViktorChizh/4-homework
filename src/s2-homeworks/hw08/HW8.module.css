@@ -1,23 +1,55 @@
 .item {
+    & td {
+        padding: 5px 0;
+        border-bottom: 1px solid lightgrey;
+        padding-left: 10px;
+    }
+
+    & td:last-of-type {
+        font-weight: bold;
+    }
 }
 
 .item:last-of-type {
+    & td {
+        border-bottom: none;
+    }
 }
 
 .users {
+    width: 100%;
+    margin-bottom: 25px;
+    border-spacing: 0;
+
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin: 20px 0;
 }
 
 .container {
+    margin: 5px 0;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .thead {
+    background-color: lightgrey;
+    font-weight: bold;
+
 }
 
 .nameCol {
+    width: 50%;
+    padding-left: 10px;
 }
 
 .ageCol {
+    width: 50%;
+    font-weight: bold;
+    padding-left: 10px;
 }
