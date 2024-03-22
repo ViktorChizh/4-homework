@@ -2,7 +2,22 @@
 }
 
 .wrapper {
-}
+    display: flex;
+    /*width: 100%;*/
 
+}
+#hw11-single-slider,
+#hw11-double-slider{
+   max-width: calc(10% - 50px);
+
+}
 .number {
+    margin: 0 10px;
+    width: 25px;
+    color: black;
+}
+.number1 {
+    margin: 0 10px;
+    width: 25px;
+    color: transparent;
 }
